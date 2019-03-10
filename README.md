@@ -10,7 +10,7 @@ md5sum: daf7312bc65e98ecfdc1b4d9fbf44f03 ubuntu-18.04-4.16.0-v7-desktop-odroid-u
 **uncompressed image:**
 md5sum: e46df26b7e08f0e1d6cb3297f91b11da ubuntu-18.04-4.16.0-v7-desktop-odroid-u2-u3-20190308.img
 
-### Credencials:
+### Credentials:
 
 **console:**  
 user: root  
