@@ -148,7 +148,7 @@ This also resulted in a smaller xz compressed image file since free space is so 
 
 ## Some things for you to do
 * **It is strongly recommended to disable remote ssh login for the user `root` since this makes remote attacks much harder!** ssh login for `root` came in handy during the installation process and is enabled in the minimal Ubuntu 16.04 image I used as a starting point.
-* You might want to pin the MAC address of your Odroid to a fixed value so you don't get always a new IP address after each reboot. I found this: <https://forum.odroid.com/viewtopic.php?f=77&t=30654#p245732> a working solution (the way like the first solution offered in this thread (post 13) did not work for me)
+* You might want to pin the MAC address of your Odroid to a fixed value so you don't get always a new IP address after each reboot. I found this: <https://forum.odroid.com/viewtopic.php?f=77&t=30654#p245732> a working solution (the way like the first solution offered in this thread (post 11) did not work for me)
 * When you created the image file yourself (instead of using mine) you might experience a file system damage on the minimal Ubuntu 16.04 image. The boot partition (FAT16) had a damage, which I later repaired (the downloadable image should be fine). You can repair such images using a second SD-Card to boot from and then plug in an the SD-Card you want to repair using an USB-Adapter.
 * **Report back to me whether this image works on a Odroid U3 or X2.**
 * **Have fun!**
