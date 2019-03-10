@@ -94,7 +94,7 @@ reboot
 ```
 
 ### Upgrade to Ubuntu 18.04
-* to upgrade to 18.04 (see also <https://forum.odroid.com/viewtopic.phpf=77&t=30654&p=232918#p232918> and <https://www.cyberciti.biz/faq/ubuntu-bash-do-release-upgrade-command-not-found/>):
+* to upgrade to 18.04 (see also <https://forum.odroid.com/viewtopic.php?f=77&t=30654&p=232918#p232918> and <https://www.cyberciti.biz/faq/ubuntu-bash-do-release-upgrade-command-not-found/>):
 
 ```
 sudo apt install ubuntu-release-upgrader-core
@@ -132,7 +132,7 @@ For some reasons unknown to me **gnome-terminal** is not working, it crashes on 
 sudo apt-get install xterm
 ```
 
-When examing the first image I created in a hex editor, I found that a lot of clutter from deleted Android files was still there (which probably was a leftover of the original Odroid Android from the 16.04 image I downloaded) So I decided to remove this by first defragmenting the disk and then wiping the free disk space:
+When examining the first image I created in a hex editor, I found that a lot of clutter from deleted Android files was still there (which probably was a leftover of the original Odroid Android from the 16.04 image I downloaded) So I decided to remove this by first defragmenting the disk and then wiping the free disk space:
 
 ```
 sudo apt-get install e2fsprogs
